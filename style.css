@@ -1,5 +1,5 @@
 /*
-Theme Name: wooecomerce-bootstrap
+Theme Name: aromaesabor
 Theme URI: http://underscores.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
@@ -19,3 +19,174 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
+#page {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #606060;
+  text-align: center; }
+  #page a:hover {
+    text-decoration: none; }
+  #page h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #4e67cf; }
+  #page h1.small {
+    font-size: 26px;
+    color: #4e67cf;
+    font-weight: bold; }
+  #page h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #4e67cf;
+    font-weight: bold; }
+  #page h4 {
+    font-size: 20px; }
+  #page h5 {
+    font-size: 17px;
+    font-weight: normal; }
+  #page .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0; }
+  #page .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #page #header {
+    border-top: 5px solid #ffc500;
+    margin-bottom: 20px; }
+    #page #header div.header-logo {
+      padding: 20px 0; }
+      #page #header div.header-logo div.redes-tel {
+        text-align: right; }
+        #page #header div.header-logo div.redes-tel .redes_sociais_header {
+          margin-top: 15px;
+          margin-bottom: 10px;
+          height: 31px;
+          list-style: none;
+          display: inline-block;
+          padding-left: 10px;
+          width: 160px; }
+        #page #header div.header-logo div.redes-tel .redes_sociais_header li:hover {
+          opacity: 0.6;
+          filter: alpha(opacity=60);
+          /* For IE8 and earlier */ }
+        #page #header div.header-logo div.redes-tel .redes_sociais_header a {
+          display: inline-block;
+          width: 31px;
+          height: 31px; }
+        #page #header div.header-logo div.redes-tel .redes_sociais_header .youtube {
+          background-image: url("images/redes_top.jpg");
+          background-position: 0px,center;
+          background-repeat: no-repeat;
+          width: 31px;
+          height: 31px;
+          display: inline-block; }
+        #page #header div.header-logo div.redes-tel .redes_sociais_header .instagram {
+          background-image: url("images/redes_top.jpg");
+          background-position: -35px,center;
+          background-repeat: no-repeat;
+          width: 31px;
+          height: 31px;
+          display: inline-block; }
+        #page #header div.header-logo div.redes-tel .redes_sociais_header .twitter {
+          background-image: url("images/redes_top.jpg");
+          background-position: -70px,center;
+          background-repeat: no-repeat;
+          width: 31px;
+          height: 31px;
+          display: inline-block; }
+        #page #header div.header-logo div.redes-tel .redes_sociais_header .facebook {
+          background-image: url("images/redes_top.jpg");
+          background-position: -105px,center;
+          background-repeat: no-repeat;
+          width: 31px;
+          height: 31px;
+          display: inline-block; }
+        #page #header div.header-logo div.redes-tel div.header-tel {
+          color: #ffc500;
+          font-size: 20px; }
+    #page #header div.header-menu nav {
+      border-radius: 10px;
+      background-color: #ffc500; }
+      #page #header div.header-menu nav div.menu-responsivo {
+        position: relative; }
+        #page #header div.header-menu nav div.menu-responsivo button {
+          border: 0;
+          background-color: transparent; }
+      #page #header div.header-menu nav ul.menu-principal {
+        padding: 0;
+        margin: 0; }
+        #page #header div.header-menu nav ul.menu-principal li {
+          border-right: 1px solid #ffe14a;
+          border-left: 1px solid #d4a700;
+          list-style-type: none;
+          display: table-cell;
+          vertical-align: middle;
+          width: 10%;
+          height: 60px;
+          padding: 10px; }
+          #page #header div.header-menu nav ul.menu-principal li a {
+            color: white;
+            display: inline-block;
+            width: 100%; }
+          #page #header div.header-menu nav ul.menu-principal li a:hover {
+            text-decoration: none; }
+        #page #header div.header-menu nav ul.menu-principal li:first-child {
+          border-left: 0; }
+        #page #header div.header-menu nav ul.menu-principal li:last-child {
+          border-right: 0; }
+        #page #header div.header-menu nav ul.menu-principal li:first-child:hover {
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px; }
+        #page #header div.header-menu nav ul.menu-principal li:last-child:hover {
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px; }
+        #page #header div.header-menu nav ul.menu-principal li:hover {
+          background-color: #ffdb62; }
+  @media (min-width: 992px) {
+    #page div.menu-responsivo {
+      display: none; }
+    #page ul.menu-principal {
+      display: block; } }
+  #page #footer {
+    text-align: left;
+    color: #FFFFFF; }
+    #page #footer div.footer-content {
+      padding: 50px 0;
+      background-color: #364598; }
+      #page #footer div.footer-content ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none; }
+        #page #footer div.footer-content ul a {
+          color: #FFFFFF; }
+        #page #footer div.footer-content ul a:hover {
+          color: #fff40e; }
+    #page #footer div.copyrino {
+      text-align: center;
+      color: #606060;
+      background-color: #eeeeee;
+      padding: 20px 0; }
+      #page #footer div.copyrino .col-md-10 {
+        padding: 12px; }
+        #page #footer div.copyrino .col-md-10 a {
+          color: #606060; }
+        #page #footer div.copyrino .col-md-10 a:hover {
+          color: #bfbfbf; }
+
+.e-cinza:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
+
+.e-claro:hover {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  /* For IE8 and earlier */ }
+
+/*# sourceMappingURL=style.css.map */
