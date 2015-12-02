@@ -1,9 +1,16 @@
 #header{
-	border-top:5px solid #ffc500;
+	border-top:10px solid #e6e3c0;
 	margin-bottom:20px;
 
     div.header-logo{
-		padding:20px 0;
+		padding:15px 0;
+
+		div.menu-responsivo{
+			position:relative;
+			float:left;
+			margin-top:30px;
+			padding:0;
+		}
 
 		div.logo-center{
 			text-align: center;
@@ -36,7 +43,7 @@
 
 	        .redes_sociais_header .youtube{
 	            background-image: url("images/redes-top.png");
-	            background-position: 0px,center;
+	            background-position: 8px,center;
 	            background-repeat:no-repeat;
 	            width:28px;
 	            height:22px;
@@ -74,15 +81,15 @@
     }   
 
     div.header-menu{
-    	nav{
 
-			div.menu-responsivo{
-				position:relative;
-			}
+    	nav{
+    		font-family: FuturaBT, Verdana, Geneva, sans-serif;
+    		font-size:15px;
 
     		ul.menu-principal{
     			padding: 0;
-    			margin: 0;
+    			margin: 0 auto;
+    			width:820px;
 
 				li{
 					float:left;
@@ -90,17 +97,16 @@
 					
 					a{
 						display: inline-block;
-
+						padding:10px 25px;
 					}
 					a:hover{
 						text-decoration: none;
 					}
 				}
 
-
 				li:hover{
 
-					background-color:#ffdb62;
+					background-color:#f2f1df;
 				}
     		}
     	}

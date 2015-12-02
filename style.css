@@ -19,49 +19,81 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
+@font-face {
+  font-family: FuturaBT;
+  src: url(font/tt0142m_.ttf); }
 #page {
   font-family: Verdana, Geneva, sans-serif;
   color: #606060;
   text-align: center; }
+  #page a {
+    color: #606060; }
   #page a:hover {
     text-decoration: none; }
   #page h1 {
+    font-family: FuturaBT, Verdana, Geneva, sans-serif;
     margin: 0;
     margin-bottom: 20px;
-    font-size: 36px;
-    color: #4e67cf; }
+    font-size: 36px; }
   #page h1.small {
+    font-family: FuturaBT, Verdana, Geneva, sans-serif;
     font-size: 26px;
-    color: #4e67cf;
     font-weight: bold; }
+  #page h1.title-restaurante:before {
+    content: "\25cf \00a0";
+    color: #b5ab3a; }
+  #page h1.title-restaurante:after {
+    content: "\00a0 \25cf";
+    color: #b5ab3a; }
   #page h2 {
+    font-family: FuturaBT, Verdana, Geneva, sans-serif;
     margin: 0;
     margin-bottom: 20px;
     font-size: 26px;
-    color: #4e67cf;
     font-weight: bold; }
   #page h4 {
-    font-size: 20px; }
+    font-family: FuturaBT, Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    font-weight: bold; }
   #page h5 {
+    font-family: FuturaBT, Verdana, Geneva, sans-serif;
     font-size: 17px;
     font-weight: normal; }
   #page .videoWrapper {
     position: relative;
-    padding-bottom: 56.25%;
+    padding-bottom: 26.25%;
     /* 16:9 */
     padding-top: 25px;
     height: 0; }
   #page .videoWrapper iframe {
+    pointer-events: none;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%; }
+  #page .cor-base {
+    color: #b5ab3a; }
+  #page .btn-saiba-mais {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background-color: #b5ab3a;
+    padding: 10px 45px;
+    color: white;
+    display: inline-block; }
+  #page .btn-saiba-mais:hover {
+    background-color: #dfd99a; }
   #page #header {
-    border-top: 5px solid #ffc500;
+    border-top: 10px solid #e6e3c0;
     margin-bottom: 20px; }
     #page #header div.header-logo {
-      padding: 20px 0; }
+      padding: 15px 0; }
+      #page #header div.header-logo div.menu-responsivo {
+        position: relative;
+        float: left;
+        margin-top: 30px;
+        padding: 0; }
       #page #header div.header-logo div.logo-center {
         text-align: center; }
       #page #header div.header-logo div.redes {
@@ -85,7 +117,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           height: 22px; }
         #page #header div.header-logo div.redes .redes_sociais_header .youtube {
           background-image: url("images/redes-top.png");
-          background-position: 0px,center;
+          background-position: 8px,center;
           background-repeat: no-repeat;
           width: 28px;
           height: 22px;
@@ -111,20 +143,23 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           width: 28px;
           height: 22px;
           display: inline-block; }
-    #page #header div.header-menu nav div.menu-responsivo {
-      position: relative; }
-    #page #header div.header-menu nav ul.menu-principal {
-      padding: 0;
-      margin: 0; }
-      #page #header div.header-menu nav ul.menu-principal li {
-        float: left;
-        list-style-type: none; }
-        #page #header div.header-menu nav ul.menu-principal li a {
-          display: inline-block; }
-        #page #header div.header-menu nav ul.menu-principal li a:hover {
-          text-decoration: none; }
-      #page #header div.header-menu nav ul.menu-principal li:hover {
-        background-color: #ffdb62; }
+    #page #header div.header-menu nav {
+      font-family: FuturaBT, Verdana, Geneva, sans-serif;
+      font-size: 15px; }
+      #page #header div.header-menu nav ul.menu-principal {
+        padding: 0;
+        margin: 0 auto;
+        width: 820px; }
+        #page #header div.header-menu nav ul.menu-principal li {
+          float: left;
+          list-style-type: none; }
+          #page #header div.header-menu nav ul.menu-principal li a {
+            display: inline-block;
+            padding: 10px 25px; }
+          #page #header div.header-menu nav ul.menu-principal li a:hover {
+            text-decoration: none; }
+        #page #header div.header-menu nav ul.menu-principal li:hover {
+          background-color: #f2f1df; }
   @media (max-width: 991px) {
     #page div.redes {
       text-align: left !important;
@@ -143,6 +178,16 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       display: none; }
     #page ul.menu-principal {
       display: block; } }
+  #page div#content section#atelie {
+    background-color: #f3f2e9;
+    padding: 80px 0; }
+  #page div#content section#detalhes {
+    padding: 80px 0; }
+    #page div#content section#detalhes ul {
+      list-style-type: none; }
+      #page div#content section#detalhes ul li:before {
+        content: "\2713 \00a0";
+        list-style-type: none; }
   #page div#content section#redes-bot .redes_sociais_bot {
     margin-bottom: 5px;
     height: 67px;

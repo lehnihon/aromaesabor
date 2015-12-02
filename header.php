@@ -24,10 +24,24 @@
 	<header id="header">
 		<div class="container">
 			<div class="row header-logo">
-				<div class="col-md-2 col-md-offset-4 logo-center">
+				<div class="col-md-2 col-md-offset-5 logo-center">
+					<div class="menu-responsivo">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+						</button>
+						<ul class="dropdown-menu">
+						<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Aroma e Sabor</a></li
+						><li><a href="<?php echo esc_url( home_url( '/' )."atelie-culinario" ); ?>">Ateliê Culinário</a></li
+						><li><a href="<?php echo esc_url( home_url( '/' ) )."eventos"; ?>">Eventos</a></li
+						><li><a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>">Fotos</a></li
+						><li><a href="<?php echo esc_url( home_url( '/' ) )."blog"; ?>">Blog</a></li
+						><li><a href="<?php echo esc_url( home_url( '/' ) )."localizacao"; ?>">Localização</a></li
+						><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
+						</ul>								
+					</div>
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-top.png"; ?>"/></a>
 				</div>
-				<div class="col-md-offset-4 col-md-2 redes">
+				<div class="col-md-offset-3 col-md-2 redes">
 					<ul class="redes_sociais_header">
 						<li class="youtube"><a target="_blank" href="#"></a></li>
 						<li class="instagram"><a target="_blank" href="#"></a></li>
@@ -39,21 +53,8 @@
 			<div class="row header-menu">
 				<div class="col-md-12">
 					<nav>
-						<div class="menu-responsivo">
-							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
-							</button>
-							<ul class="dropdown-menu">
-							<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Aroma e Sabor</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' )."atelie-culinario" ); ?>">Ateliê Culinário</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."eventos"; ?>">Eventos</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>">Fotos</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."blog"; ?>">Blog</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."localizacao"; ?>">Localização</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
-							</ul>								
-						</div>
-						<ul class="menu-principal">
+
+						<ul class="menu-principal clearfix">
 							<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Aroma e Sabor</a></li
 							><li><a href="<?php echo esc_url( home_url( '/' )."atelie-culinario" ); ?>">Ateliê Culinário</a></li
 							><li><a href="<?php echo esc_url( home_url( '/' ) )."eventos"; ?>">Eventos</a></li

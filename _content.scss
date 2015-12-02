@@ -1,5 +1,22 @@
 div#content{
 
+	section#atelie{
+		background-color:#f3f2e9;
+		padding:80px 0;
+	}
+
+	section#detalhes{
+		padding:80px 0;	
+
+		ul{
+			list-style-type:none;
+			li:before{
+				 content: "\2713 \00a0";
+				 list-style-type:none;
+			}
+		}
+	}
+
 	section#redes-bot{
 		
 		.redes_sociais_bot{

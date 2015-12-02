@@ -20,59 +20,99 @@ Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
  
+@font-face {
+    font-family: FuturaBT;
+    src: url(font/tt0142m_.ttf);
+}
+
 #page{
 	font-family: Verdana, Geneva, sans-serif;
 	color:#606060;
 	text-align:center;
+
+	a{
+		color:#606060;
+	}
 
 	a:hover{
 		text-decoration: none;
 	}
 
 	h1{
+		font-family:FuturaBT, Verdana, Geneva, sans-serif;
 		margin: 0;
 		margin-bottom: 20px;
 		font-size: 36px;
-		color:#4e67cf;
 	}
 
 	h1.small{
+		font-family:FuturaBT, Verdana, Geneva, sans-serif;
 		font-size: 26px;
-		color:#4e67cf;
 		font-weight: bold;
+	}
 
+	h1.title-restaurante:before{
+		content:"\25cf \00a0";
+		color:#b5ab3a;
+	}
+
+	h1.title-restaurante:after{
+		content:"\00a0 \25cf";
+		color:#b5ab3a;
 	}
 
 	h2{
+		font-family:FuturaBT, Verdana, Geneva, sans-serif;
 		margin: 0;
 		margin-bottom: 20px;
 		font-size: 26px;
-		color:#4e67cf;
 		font-weight: bold;
 	}
 
 	h4{
+		font-family:FuturaBT, Verdana, Geneva, sans-serif;
 		font-size: 20px;
+		font-weight:bold;
 	}
 
 	h5{
+		font-family:FuturaBT, Verdana, Geneva, sans-serif;
 		font-size:17px;
 		font-weight: normal;
 	}
 
 	.videoWrapper {
 	    position: relative;
-	    padding-bottom: 56.25%; /* 16:9 */
+	    padding-bottom: 26.25%; /* 16:9 */
 	    padding-top: 25px;
 	    height: 0;
 	}
 	.videoWrapper iframe {
+		pointer-events: none;
 	    position: absolute;
 	    top: 0;
 	    left: 0;
 	    width: 100%;
 	    height: 100%;
 	}	
+
+	.cor-base{
+		color:#b5ab3a;
+	}
+
+	.btn-saiba-mais{
+		-webkit-border-radius: 6px; 
+		-moz-border-radius: 6px; 
+		border-radius: 6px; 
+		background-color:#b5ab3a;
+		padding:10px 45px;
+		color:white;
+		display:inline-block		
+	}
+
+	.btn-saiba-mais:hover{
+		background-color:#dfd99a;
+	}
 
 	@import 'header';
 	@import 'content';
