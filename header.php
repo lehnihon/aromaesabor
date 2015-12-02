@@ -24,19 +24,16 @@
 	<header id="header">
 		<div class="container">
 			<div class="row header-logo">
-				<div class="col-md-3">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-fraldas.jpg"; ?>"/></a>
+				<div class="col-md-2 col-md-offset-4 logo-center">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-top.png"; ?>"/></a>
 				</div>
-				<div class="col-md-offset-6 col-md-3 redes-tel">
+				<div class="col-md-offset-4 col-md-2 redes">
 					<ul class="redes_sociais_header">
-						<li class="youtube"><a target="_blank" href="https://www.youtube.com/user/academiaxtremegold"></a></li>
-						<li class="instagram"><a target="_blank" href="https://instagram.com/xtremegoldteamct/"></a></li>
-						<li class="twitter"><a target="_blank" href="https://twitter.com/xtremegoldteam"></a></li>
-						<li class="facebook"><a target="_blank" href="https://www.facebook.com/xtremegoldteam"></a></li>
-					</ul>
-					<div class="header-tel">
-						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/telefone.jpg"; ?>"/> <span>11 <strong>2694-4771</strong></span>
-					</div>					
+						<li class="youtube"><a target="_blank" href="#"></a></li>
+						<li class="instagram"><a target="_blank" href="#"></a></li>
+						<li class="twitter"><a target="_blank" href="#"></a></li>
+						<li class="facebook"><a target="_blank" href="#"></a></li>
+					</ul>					
 				</div>
 			</div><!-- .row -->
 			<div class="row header-menu">
@@ -47,28 +44,22 @@
 								<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
 							</button>
 							<ul class="dropdown-menu">
-								<li><a href="<?php echo esc_url( home_url( '/' )."categoria/roupa-infantil" ); ?>">Roupa Infantil</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' )."categoria/acessorios-bebe" ); ?>">Acessórios Bebê</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/leite"; ?>">Leite</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/hora-do-banho"; ?>">Hora do Banho</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/categoria/absorvente"; ?>">Absorvente</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/higiene-pessoal"; ?>">Higiene Pessoal</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/bolsas"; ?>">Bolsas</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/fralda-adulto"; ?>">Fralda Adulto</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/fralda-infantil"; ?>">Fralda Infantil</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Aroma e Sabor</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' )."atelie-culinario" ); ?>">Ateliê Culinário</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."eventos"; ?>">Eventos</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>">Fotos</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."blog"; ?>">Blog</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."localizacao"; ?>">Localização</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
 							</ul>								
 						</div>
 						<ul class="menu-principal">
-							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/roupa-infantil" ); ?>">Roupa Infantil</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' )."categoria/acessorios-bebe" ); ?>">Acessórios Bebê</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/leite"; ?>">Leite</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/hora-do-banho"; ?>">Hora do Banho</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/categoria/absorvente"; ?>">Absorvente</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/higiene-pessoal"; ?>">Higiene Pessoal</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/bolsas"; ?>">Bolsas</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/fralda-adulto"; ?>">Fralda Adulto</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."categoria/fralda-infantil"; ?>">Fralda Infantil</a></li
+							<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Aroma e Sabor</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' )."atelie-culinario" ); ?>">Ateliê Culinário</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."eventos"; ?>">Eventos</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>">Fotos</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."blog"; ?>">Blog</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) )."localizacao"; ?>">Localização</a></li
 							><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
 						</ul>
 					</nav><!-- #site-navigation -->						
