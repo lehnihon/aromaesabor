@@ -10,15 +10,24 @@ div#content{
 
 		ul{
 			list-style-type:none;
-			li:before{
-				 content: "\2713 \00a0";
-				 list-style-type:none;
+			margin-bottom: 20px;
+
+			li{
+				margin: 15px 0px;
 			}
+			li:before{
+				content: "\2713 \00a0";
+			}
+		}
+
+		div.atelie{
+			margin-bottom:50px;
 		}
 	}
 
 	section#redes-bot{
-		
+		padding:80px 0;	
+	
 		.redes_sociais_bot{
 			margin-bottom: 5px;
 			height:67px;
@@ -42,7 +51,7 @@ div#content{
 		}
 
 		.redes_sociais_bot .youtube{
-			background-image: url("images/redes_bot.jpg");
+			background-image: url("images/redes-bot.jpg");
 			background-position: left,center;
 			background-repeat:no-repeat;
 			width:67px;
@@ -51,7 +60,7 @@ div#content{
 		}
 
 		.redes_sociais_bot .instagram{
-			background-image: url("images/redes_bot.jpg");
+			background-image: url("images/redes-bot.jpg");
 			background-position: -80px,center;
 			background-repeat:no-repeat;
 			width:67px;
@@ -60,7 +69,7 @@ div#content{
 		}
 
 		.redes_sociais_bot .twitter{
-			background-image: url("images/redes_bot.jpg");
+			background-image: url("images/redes-bot.jpg");
 			background-position: -160px,center;
 			background-repeat:no-repeat;
 			width:67px;
@@ -69,7 +78,7 @@ div#content{
 		}
 
 		.redes_sociais_bot .facebook{
-			background-image: url("images/redes_bot.jpg");
+			background-image: url("images/redes-bot.jpg");
 			background-position: right,center;
 			background-repeat:no-repeat;
 			width:67px;

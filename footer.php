@@ -44,7 +44,7 @@
 						&copy; <?php echo date('Y') ?> Atacado das Fraldas Indaiatuba | <a target="_blank" href="http://agenciarino.com.br/">Site desenvolvido pela Agência Rino.</a>
 					</div>
 					<div class="col-md-2">
-						<a target="_blank" href="http://agenciarino.com.br/"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo_rino.png"?>" /></a>	
+						<a target="_blank" href="http://agenciarino.com.br/"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-rino.png"?>" /></a>	
 					</div>
 				</div>	
 			</div>	

@@ -2,8 +2,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h2>Hotel Beach Hills nas redes sociais</h2>
-				<h5>Acompanhe a Hotel Beach Hills nas redes sociais e confira todas as nossas novidades.</h5>
+				<h2 class="redes">Aroma e Sabor nas redes sociais</h2>
+				<h5>Acompanhe o Restaurante Aroma e Sabor nas redes sociais e confira todas as nossas novidades.</h5>
 			</div>
 		</div><!-- .row -->
 		<div class="row">

@@ -4,10 +4,8 @@ get_header(); ?>
 <div id="content">
 	<section id="banner">
 		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-12">			
-					<?php putRevSlider( "banner-index" ) ?>
-				</div>
+			<div class="row">		
+				<?php putRevSlider( "banner-index" ) ?>		
 			</div>
 		</div>
 	</section>
@@ -33,9 +31,9 @@ get_header(); ?>
 	</section>
 	<section id="detalhes">
 		<div class="container">
-			<div class="row">
+			<div class="row atelie">
 				<div class="col-md-3">
-					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/atelie.jpg"; ?>"/>
+					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/atelie.png"; ?>"/>
 				</div>
 				<div class="col-md-3 text-left">
 					<h4>Ateliê Culinário</h4>
@@ -43,7 +41,7 @@ get_header(); ?>
 					<a href="#" class="btn-saiba-mais">Saiba mais</a>
 				</div>
 				<div class="col-md-3">
-					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/eventos.jpg"; ?>"/>
+					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/eventos.png"; ?>"/>
 				</div>
 				<div class="col-md-3 text-left">
 					<h4>Eventos</h4>
@@ -56,9 +54,9 @@ get_header(); ?>
 					<h4>Restaurante Aroma e Sabor</h4>
 					<p class="">Somos pioneiros no sistema de refeição a quilo na cidade de São Paulo.
 						Atuamos há 26 anos, fornecendo comida caseira, num ambiente mais do que familiar.
-						Tudo começou com Mama Odete e agora, já na segunda geração, o restaurante 
+						<br>Tudo começou com Mama Odete e agora, já na segunda geração, o restaurante 
 						Aroma e Sabor procura manter o mesmo espírito e a mesma ideia: alimentar com 
-						qualidade a todos que nos procura.
+						qualidade a todos que nos procuram.
 
 					</p>
 					<ul>

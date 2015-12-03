@@ -51,13 +51,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     margin-bottom: 20px;
     font-size: 26px;
     font-weight: bold; }
+  #page h2.redes {
+    color: #baad29; }
   #page h4 {
-    font-family: FuturaBT, Verdana, Geneva, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
     font-size: 20px;
     font-weight: bold; }
   #page h5 {
-    font-family: FuturaBT, Verdana, Geneva, sans-serif;
-    font-size: 17px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
     font-weight: normal; }
   #page .videoWrapper {
     position: relative;
@@ -184,61 +186,67 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page div#content section#detalhes {
     padding: 80px 0; }
     #page div#content section#detalhes ul {
-      list-style-type: none; }
+      list-style-type: none;
+      margin-bottom: 20px; }
+      #page div#content section#detalhes ul li {
+        margin: 15px 0px; }
       #page div#content section#detalhes ul li:before {
-        content: "\2713 \00a0";
-        list-style-type: none; }
-  #page div#content section#redes-bot .redes_sociais_bot {
-    margin-bottom: 5px;
-    height: 67px;
-    text-align: left;
-    list-style: none;
-    margin: 0 auto;
-    margin-top: 30px;
-    width: 310px;
-    padding: 0; }
-  #page div#content section#redes-bot .redes_sociais_bot li:hover {
-    opacity: 0.6;
-    filter: alpha(opacity=60);
-    /* For IE8 and earlier */ }
-  #page div#content section#redes-bot .redes_sociais_bot a {
-    display: inline-block;
-    width: 67px;
-    height: 67px; }
-  #page div#content section#redes-bot .redes_sociais_bot .youtube {
-    background-image: url("images/redes_bot.jpg");
-    background-position: left,center;
-    background-repeat: no-repeat;
-    width: 67px;
-    height: 67px;
-    display: inline-block; }
-  #page div#content section#redes-bot .redes_sociais_bot .instagram {
-    background-image: url("images/redes_bot.jpg");
-    background-position: -80px,center;
-    background-repeat: no-repeat;
-    width: 67px;
-    height: 67px;
-    display: inline-block; }
-  #page div#content section#redes-bot .redes_sociais_bot .twitter {
-    background-image: url("images/redes_bot.jpg");
-    background-position: -160px,center;
-    background-repeat: no-repeat;
-    width: 67px;
-    height: 67px;
-    display: inline-block; }
-  #page div#content section#redes-bot .redes_sociais_bot .facebook {
-    background-image: url("images/redes_bot.jpg");
-    background-position: right,center;
-    background-repeat: no-repeat;
-    width: 67px;
-    height: 67px;
-    display: inline-block; }
+        content: "\2713 \00a0"; }
+    #page div#content section#detalhes div.atelie {
+      margin-bottom: 50px; }
+  #page div#content section#redes-bot {
+    padding: 80px 0; }
+    #page div#content section#redes-bot .redes_sociais_bot {
+      margin-bottom: 5px;
+      height: 67px;
+      text-align: left;
+      list-style: none;
+      margin: 0 auto;
+      margin-top: 30px;
+      width: 310px;
+      padding: 0; }
+    #page div#content section#redes-bot .redes_sociais_bot li:hover {
+      opacity: 0.6;
+      filter: alpha(opacity=60);
+      /* For IE8 and earlier */ }
+    #page div#content section#redes-bot .redes_sociais_bot a {
+      display: inline-block;
+      width: 67px;
+      height: 67px; }
+    #page div#content section#redes-bot .redes_sociais_bot .youtube {
+      background-image: url("images/redes-bot.jpg");
+      background-position: left,center;
+      background-repeat: no-repeat;
+      width: 67px;
+      height: 67px;
+      display: inline-block; }
+    #page div#content section#redes-bot .redes_sociais_bot .instagram {
+      background-image: url("images/redes-bot.jpg");
+      background-position: -80px,center;
+      background-repeat: no-repeat;
+      width: 67px;
+      height: 67px;
+      display: inline-block; }
+    #page div#content section#redes-bot .redes_sociais_bot .twitter {
+      background-image: url("images/redes-bot.jpg");
+      background-position: -160px,center;
+      background-repeat: no-repeat;
+      width: 67px;
+      height: 67px;
+      display: inline-block; }
+    #page div#content section#redes-bot .redes_sociais_bot .facebook {
+      background-image: url("images/redes-bot.jpg");
+      background-position: right,center;
+      background-repeat: no-repeat;
+      width: 67px;
+      height: 67px;
+      display: inline-block; }
   #page #footer {
     text-align: left;
     color: #FFFFFF; }
     #page #footer div.footer-content {
       padding: 50px 0;
-      background-color: #364598; }
+      background-color: #baad29; }
       #page #footer div.footer-content ul {
         padding: 0;
         margin: 0;
@@ -250,7 +258,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page #footer div.copyrino {
       text-align: center;
       color: #606060;
-      background-color: #eeeeee;
+      background-color: #f4f2e9;
       padding: 20px 0; }
       #page #footer div.copyrino .col-md-10 {
         padding: 12px; }
