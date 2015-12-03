@@ -24,10 +24,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   src: url(font/tt0142m_.ttf); }
 #page {
   font-family: Verdana, Geneva, sans-serif;
-  color: #606060;
+  color: #373737;
   text-align: center; }
   #page a {
-    color: #606060; }
+    color: #373737; }
   #page a:hover {
     text-decoration: none; }
   #page h1 {
@@ -35,6 +35,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     margin: 0;
     margin-bottom: 20px;
     font-size: 36px; }
+  #page h1.title-full {
+    background-color: #f3f2e9;
+    width: 100%;
+    padding: 30px 0; }
   #page h1.small {
     font-family: FuturaBT, Verdana, Geneva, sans-serif;
     font-size: 26px;
@@ -147,11 +151,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           display: inline-block; }
     #page #header div.header-menu nav {
       font-family: FuturaBT, Verdana, Geneva, sans-serif;
-      font-size: 15px; }
+      font-size: 16px; }
       #page #header div.header-menu nav ul.menu-principal {
         padding: 0;
         margin: 0 auto;
-        width: 820px; }
+        width: 850px; }
         #page #header div.header-menu nav ul.menu-principal li {
           float: left;
           list-style-type: none; }
@@ -184,16 +188,26 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     background-color: #f3f2e9;
     padding: 80px 0; }
   #page div#content section#detalhes {
-    padding: 80px 0; }
+    padding: 80px 0;
+    background-color: #fcfcfc; }
     #page div#content section#detalhes ul {
       list-style-type: none;
       margin-bottom: 20px; }
       #page div#content section#detalhes ul li {
         margin: 15px 0px; }
       #page div#content section#detalhes ul li:before {
-        content: "\2713 \00a0"; }
+        content: "\2713 \00a0";
+        font-weight: bold; }
     #page div#content section#detalhes div.atelie {
       margin-bottom: 50px; }
+  #page div#content section#sobre ul {
+    list-style-type: none;
+    margin-bottom: 20px; }
+    #page div#content section#sobre ul li {
+      margin: 15px 0px; }
+    #page div#content section#sobre ul li:before {
+      content: "\2713 \00a0";
+      font-weight: bold; }
   #page div#content section#redes-bot {
     padding: 80px 0; }
     #page div#content section#redes-bot .redes_sociais_bot {

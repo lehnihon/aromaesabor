@@ -7,6 +7,7 @@ div#content{
 
 	section#detalhes{
 		padding:80px 0;	
+		background-color:#fcfcfc;
 
 		ul{
 			list-style-type:none;
@@ -17,12 +18,28 @@ div#content{
 			}
 			li:before{
 				content: "\2713 \00a0";
+				font-weight:bold;
 			}
 		}
 
 		div.atelie{
 			margin-bottom:50px;
 		}
+	}
+
+	section#sobre{
+		ul{
+			list-style-type:none;
+			margin-bottom: 20px;
+
+			li{
+				margin: 15px 0px;
+			}
+			li:before{
+				content: "\2713 \00a0";
+				font-weight:bold;
+			}
+		}	
 	}
 
 	section#redes-bot{

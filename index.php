@@ -33,7 +33,7 @@ get_header(); ?>
 		<div class="container">
 			<div class="row atelie">
 				<div class="col-md-3">
-					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/atelie.png"; ?>"/>
+					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/atelie.jpg"; ?>"/>
 				</div>
 				<div class="col-md-3 text-left">
 					<h4>Ateliê Culinário</h4>
@@ -41,7 +41,7 @@ get_header(); ?>
 					<a href="#" class="btn-saiba-mais">Saiba mais</a>
 				</div>
 				<div class="col-md-3">
-					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/eventos.png"; ?>"/>
+					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/eventos.jpg"; ?>"/>
 				</div>
 				<div class="col-md-3 text-left">
 					<h4>Eventos</h4>

@@ -27,11 +27,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 #page{
 	font-family: Verdana, Geneva, sans-serif;
-	color:#606060;
+	color:#373737;
 	text-align:center;
 
 	a{
-		color:#606060;
+		color:#373737;
 	}
 
 	a:hover{
@@ -43,6 +43,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		margin: 0;
 		margin-bottom: 20px;
 		font-size: 36px;
+	}
+
+	h1.title-full{
+		background-color:#f3f2e9;
+		width:100%;
+		padding:30px 0; 
 	}
 
 	h1.small{

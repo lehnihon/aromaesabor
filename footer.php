@@ -4,31 +4,30 @@
 				<div class="row">
 					<div class="col-md-4">
 						<p>
-							<strong>Sobre o Atacado das Fraldas Indaiatuba.</strong><br><br>
-							No Atacado das Fraldas Indaiatuba você encontra uma linha completa de fraldas para crianças e adultos com preços que cabem no seu bolso.
-							<br>Além de bolsas, absorventes, leite, acessórios e roupas para bebês.
+							<strong>Restaurante Aroma e Sabor</strong><br><br>
+							Somos pioneiros no sistema de refeição a quilo na ciadde de São Paulo.
+							<br>Atuamos há 26 anos, fornecendo comida caseira, num ambiente mais do que familiar.
 							<br><br>
-							<strong>Endereço</strong>
-							<br><br>Avenida Ário Barnabé, XXXX - Jardim Morada do Sol 
-							<br>Indaiatuba - São Paulo
+							<strong>Rua São Bento, 245 - Centro São Paulo</strong>
+							<br><strong>Telefone: 11 1234-5678</strong>
 						</p>
 					</div>
 					<div class="col-md-2 col-md-offset-1">
-						<strong>Produtos</strong><br><br>
+						<strong>Institucional</strong><br><br>
 						<ul>
-							<?php
-							$args = array(
-								'posts_per_page' => 10,
-							    'orderby' => 'rand');
-							$query = new WP_Query( $args );
-
-							while ( $query->have_posts() ) : $query->the_post(); 
-							?>
-								<?php if($query->current_post == 5): ?>
-									<?php echo '</div><div class="col-md-2"><br><br><ul>'; ?>
-								<?php endif; ?>
-								<li><a href="<?php the_permalink(); ?>"><?php the_title( );?></a></li>
-							<?php endwhile; ?>
+							<li><a href="#">O Restaurante</a></li>
+							<li><a href="#">Localização</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Contato</a></li>
+						</ul>	
+					</div>
+					<div class="col-md-2">
+						<strong>Serviços</strong><br><br>
+						<ul>
+							<li><a href="#">Ateliê Culinário</a></li>
+							<li><a href="#">Eventos</a></li>
+							<li><a href="#">Sexta temática</a></li>
+							<li><a href="#">Fotos</a></li>
 						</ul>	
 					</div>
 					<div class="col-md-3">
