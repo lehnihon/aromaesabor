@@ -23,7 +23,20 @@ get_header(); ?>
 			</div>		
 		</div>
 	</section>
-	
+
+	<section id="fotos-sobre">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					fotos
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="eventos">
+		<h1 class="small title-restaurante"><span class="cor-base">Eventos no</span> Aroma e Sabor</h1>
+	</section>
 
 	<?php get_template_part( 'template-parts/redes-bot'); ?>
 

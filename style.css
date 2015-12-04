@@ -167,6 +167,89 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
             text-decoration: none; }
         #page #header div.header-menu nav ul.menu-principal li:hover {
           background-color: #f2f1df; }
+  #page #header-blog {
+    border-top: 10px solid #e6e3c0;
+    margin-bottom: 20px; }
+    #page #header-blog div.header-logo {
+      padding: 15px 0; }
+      #page #header-blog div.header-logo div.menu-responsivo {
+        position: relative;
+        float: left;
+        margin-top: 30px;
+        padding: 0; }
+      #page #header-blog div.header-logo div.logo-center {
+        text-align: center; }
+      #page #header-blog div.header-logo div.redes {
+        text-align: right;
+        padding-top: 15px; }
+        #page #header-blog div.header-logo div.redes form.search-form input.pesquisar-input {
+          padding: 8.5px;
+          vertical-align: top;
+          margin-right: 0px;
+          border: 0;
+          width: 60%;
+          background-color: #f3f2e9; }
+        #page #header-blog div.header-logo div.redes .redes_sociais_header {
+          margin-top: 15px;
+          margin-bottom: 10px;
+          height: 31px;
+          list-style: none;
+          display: inline-block;
+          padding-left: 10px;
+          width: 160px; }
+        #page #header-blog div.header-logo div.redes .redes_sociais_header li:hover {
+          opacity: 0.6;
+          filter: alpha(opacity=60);
+          /* For IE8 and earlier */ }
+        #page #header-blog div.header-logo div.redes .redes_sociais_header a {
+          display: inline-block;
+          width: 22px;
+          height: 22px; }
+        #page #header-blog div.header-logo div.redes .redes_sociais_header .youtube {
+          background-image: url("images/redes-top.png");
+          background-position: 8px,center;
+          background-repeat: no-repeat;
+          width: 28px;
+          height: 22px;
+          display: inline-block; }
+        #page #header-blog div.header-logo div.redes .redes_sociais_header .instagram {
+          background-image: url("images/redes-top.png");
+          background-position: -25px,center;
+          background-repeat: no-repeat;
+          width: 28px;
+          height: 22px;
+          display: inline-block; }
+        #page #header-blog div.header-logo div.redes .redes_sociais_header .twitter {
+          background-image: url("images/redes-top.png");
+          background-position: -60px,center;
+          background-repeat: no-repeat;
+          width: 28px;
+          height: 22px;
+          display: inline-block; }
+        #page #header-blog div.header-logo div.redes .redes_sociais_header .facebook {
+          background-image: url("images/redes-top.png");
+          background-position: -92px,center;
+          background-repeat: no-repeat;
+          width: 28px;
+          height: 22px;
+          display: inline-block; }
+    #page #header-blog div.header-menu nav {
+      font-family: FuturaBT, Verdana, Geneva, sans-serif;
+      font-size: 16px; }
+      #page #header-blog div.header-menu nav ul.menu-principal {
+        padding: 0;
+        margin: 0 auto;
+        width: 590px; }
+        #page #header-blog div.header-menu nav ul.menu-principal li {
+          float: left;
+          list-style-type: none; }
+          #page #header-blog div.header-menu nav ul.menu-principal li a {
+            display: inline-block;
+            padding: 10px 25px; }
+          #page #header-blog div.header-menu nav ul.menu-principal li a:hover {
+            text-decoration: none; }
+        #page #header-blog div.header-menu nav ul.menu-principal li:hover {
+          background-color: #f2f1df; }
   @media (max-width: 991px) {
     #page div.redes {
       text-align: left !important;
@@ -201,6 +284,75 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         font-weight: bold; }
     #page div#content section#detalhes div.atelie {
       margin-bottom: 50px; }
+  #page div#content section#eventos {
+    padding-top: 80px; }
+  #page div#content section#blog div.menu-blog div.col-md-4 a {
+    color: white;
+    display: inline-block;
+    padding: 25px 80px;
+    font-family: FuturaBT, Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    font-weight: bold; }
+  #page div#content section#blog div.menu-blog div.col-md-4:hover {
+    background-color: #dad38b !important; }
+  #page div#content section#blog div.posts {
+    margin-top: 40px; }
+    #page div#content section#blog div.posts div.paginacao .page-numbers {
+      padding: 5px;
+      background-color: #ececec; }
+    #page div#content section#blog div.posts div.paginacao .current {
+      background-color: #ffc700; }
+    #page div#content section#blog div.posts article.blog {
+      text-align: left;
+      padding-bottom: 30px;
+      margin-bottom: 40px; }
+      #page div#content section#blog div.posts article.blog h1 {
+        margin: 20px 0; }
+      #page div#content section#blog div.posts article.blog h1.small {
+        margin: 20px 0;
+        color: #baad29 !important;
+        font-weight: normal; }
+      #page div#content section#blog div.posts article.blog h2.entry-title {
+        margin: 20px 0; }
+        #page div#content section#blog div.posts article.blog h2.entry-title a {
+          color: #baad29;
+          font-weight: normal; }
+      #page div#content section#blog div.posts article.blog div.entry-summary p.confira {
+        margin-top: 20px; }
+        #page div#content section#blog div.posts article.blog div.entry-summary p.confira a {
+          font-weight: bold;
+          font-size: 12px;
+          color: #baad29; }
+        #page div#content section#blog div.posts article.blog div.entry-summary p.confira a:hover {
+          color: #dad38b !important; }
+  #page div#content section#blog div.posts-single div.paginacao .page-numbers {
+    padding: 5px;
+    background-color: #ececec; }
+  #page div#content section#blog div.posts-single div.paginacao .current {
+    background-color: #ffc700; }
+  #page div#content section#blog div.posts-single article.blog {
+    text-align: left;
+    padding-bottom: 30px;
+    margin-bottom: 40px; }
+    #page div#content section#blog div.posts-single article.blog h1 {
+      margin: 20px 0; }
+    #page div#content section#blog div.posts-single article.blog h1.small {
+      margin: 20px 0;
+      color: #baad29 !important;
+      font-weight: normal; }
+    #page div#content section#blog div.posts-single article.blog h2.entry-title {
+      margin: 20px 0; }
+      #page div#content section#blog div.posts-single article.blog h2.entry-title a {
+        color: #baad29;
+        font-weight: normal; }
+    #page div#content section#blog div.posts-single article.blog div.entry-summary p.confira {
+      margin-top: 20px; }
+      #page div#content section#blog div.posts-single article.blog div.entry-summary p.confira a {
+        font-weight: bold;
+        font-size: 12px;
+        color: #baad29; }
+      #page div#content section#blog div.posts-single article.blog div.entry-summary p.confira a:hover {
+        color: #dad38b !important; }
   #page div#content section#sobre {
     padding-bottom: 40px; }
     #page div#content section#sobre ul {

@@ -140,6 +140,68 @@ if (!function_exists('loop_columns')) {
 	}
 }
 
+function template_chooser($template)   
+{    
+	global $wp_query;   
+	$post_type = get_query_var('post_type');   
+	if( isset($_GET['s']) && $post_type == 'blog' )   
+	{
+		return locate_template('search-blog.php');  //  redirect to archive-search.php
+	}   
+	return $template;   
+}
+add_filter('template_include', 'template_chooser');
+
+/**
+ * CUSTOM POST TYPE
+ */
+
+function register_post_type_blog(){
+	$singular = 'Blog Post';
+	$plural = 'Blog Posts';
+	$labels = array(
+		'name' => $plural,
+		'singular_name' => $singular,
+		'add_new_item' => 'Adicionar novo '.$singular,
+		);
+	$args = array(
+		'labels' => $labels,
+		'public' => true,
+        'supports' => array('title', 'editor','thumbnail'),
+        'menu_position' => 5
+		);
+
+	register_post_type('blog',$args);
+}
+add_action(	'init','register_post_type_blog');
+flush_rewrite_rules();
+function register_taxonomy_categoria_blog(){
+    $labels = array(
+        'name'              => _x( 'Categoria', 'taxonomy general name' ),
+        'singular_name'     => _x( 'Categorias', 'taxonomy singular name' ),
+        'search_items'      => __( 'Procurar Categoria' ),
+        'all_items'         => __( 'Todas Categorias' ),
+        'parent_item'       => __( 'Parent Course' ),
+        'parent_item_colon' => __( 'Parent Course:' ),
+        'edit_item'         => __( 'Editar Categoria' ),
+        'update_item'       => __( 'Atualizar Categoria' ),
+        'add_new_item'      => __( 'Adicionar Categoria' ),
+        'new_item_name'     => __( 'Nome Nova Categoria' ),
+        'menu_name'         => __( 'Categoria' ),
+    );
+ 
+    $args = array(
+        'hierarchical'      => true,
+        'labels'            => $labels,
+        'show_ui'           => true,
+        'show_admin_column' => true,
+        'query_var'         => true,
+        'rewrite'           => array( 'slug' => 'categoria-blog' ),
+    );
+	register_taxonomy( 'categoria_blog', 'blog', $args );
+}
+add_action('init','register_taxonomy_categoria_blog');
+
 /**
  * Implement the Custom Header feature.
  */

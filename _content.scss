@@ -27,6 +27,142 @@ div#content{
 		}
 	}
 
+	section#eventos{
+		padding-top:80px;
+	}
+
+	section#blog{
+		
+		div.menu-blog{
+			div.col-md-4{
+				a{
+					color:white;
+					display:inline-block;
+					padding:25px 80px;
+					font-family:FuturaBT, Verdana, Geneva, sans-serif;
+					font-size:20px;
+					font-weight:bold;
+				}
+			}
+			div.col-md-4:hover{
+				background-color:#dad38b !important;
+			}
+		}
+		
+		div.posts{
+			margin-top:40px;
+
+			div.paginacao{
+				.page-numbers{
+					padding:5px;
+					background-color:#ececec;
+				}
+				.current{
+					background-color:#ffc700;
+				}
+			}
+
+			article.blog{
+				text-align: left;
+				padding-bottom: 30px;
+				margin-bottom: 40px;
+
+				h1{
+					margin:20px 0;
+				}	
+
+				h1.small{
+					margin: 20px 0;
+
+					color:#baad29 !important;
+					font-weight:normal;
+
+				}
+
+				h2.entry-title{
+					margin: 20px 0;
+					a{
+						color:#baad29;
+						font-weight:normal;
+					}
+				}
+				div.entry-summary{
+					p.confira{
+						margin-top: 20px;
+
+						a{
+							font-weight: bold;
+							font-size: 12px;
+							color:#baad29;
+						}
+
+						a:hover{
+							color:#dad38b !important;
+						}
+					}
+				}
+
+			}
+		}
+
+		div.posts-single{
+
+			div.paginacao{
+				.page-numbers{
+					padding:5px;
+					background-color:#ececec;
+				}
+				.current{
+					background-color:#ffc700;
+				}
+			}
+
+			article.blog{
+				text-align: left;
+				padding-bottom: 30px;
+				margin-bottom: 40px;
+
+				h1{
+					margin:20px 0;
+				}	
+
+				h1.small{
+					margin: 20px 0;
+
+					color:#baad29 !important;
+					font-weight:normal;
+
+				}
+
+				h2.entry-title{
+					margin: 20px 0;
+					a{
+						color:#baad29;
+						font-weight:normal;
+					}
+				}
+				div.entry-summary{
+					p.confira{
+						margin-top: 20px;
+
+						a{
+							font-weight: bold;
+							font-size: 12px;
+							color:#baad29;
+						}
+
+						a:hover{
+							color:#dad38b !important;
+						}
+					}
+				}
+
+			}
+
+		}
+
+	}
+
 	section#sobre{
 		padding-bottom:40px;
 
@@ -49,6 +185,9 @@ div#content{
 		background-color:#f3f2e9;
 	}
 
+	section#atelie-menu{
+	
+	}
 
 	section#redes-bot{
 		padding:80px 0;	

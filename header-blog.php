@@ -28,7 +28,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
-	<header id="header">
+	<header id="header-blog">
 		<div class="container">
 			<div class="row header-logo">
 				<div class="col-md-2 col-md-offset-5 logo-center">
@@ -37,43 +37,39 @@
 							<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
 						</button>
 						<ul class="dropdown-menu">
-						<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Aroma e Sabor</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' )."atelie-culinario" ); ?>">Ateliê Culinário</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' ) )."eventos"; ?>">Eventos</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>">Fotos</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' ) )."blog"; ?>">Blog</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' ) )."localizacao"; ?>">Localização</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."blog"); ?>">Início</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' )."categoria-blog/noticias" ); ?>">Notícias</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' )."categoria-blog/dicas" ); ?>">Dicas</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' )."categoria-blog/receitas" ); ?>">Receitas</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Site Aroma e Sabor</a></li>
 						</ul>								
 					</div>
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-top.png"; ?>"/></a>
+					<a href="<?php echo esc_url( home_url( '/' )."blog"); ?>" rel="home"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-top.png"; ?>"/></a>
 				</div>
-				<div class="col-md-offset-3 col-md-2 redes">
+				<div class="col-md-offset-1 col-md-4 redes">
 					<ul class="redes_sociais_header">
 						<li class="youtube"><a target="_blank" href="#"></a></li>
 						<li class="instagram"><a target="_blank" href="#"></a></li>
 						<li class="twitter"><a target="_blank" href="#"></a></li>
 						<li class="facebook"><a target="_blank" href="#"></a></li>
-					</ul>					
+					</ul>	
+					<form role="search" method="get" class="col-md-12 search-form" action="<?php echo home_url( '/' ); ?>">
+						<input type="hidden" name="post_type" value="blog" /><input type="search" class="pesquisar-input" placeholder="<?php echo esc_attr_x( 'Buscar Blog', 'placeholder' ) ?>" value="<?php echo get_search_query() ?>" name="s" title="<?php echo esc_attr_x( 'Search for:', 'label' ) ?>" /><input type="image" class="pesquisar-submit" alt="Search"  src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-buscar.jpg"; ?>" />
+					</form>	
 				</div>
 			</div><!-- .row -->
 			<div class="row header-menu">
 				<div class="col-md-12">
 					<nav>
-
 						<ul class="menu-principal clearfix">
-							<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Aroma e Sabor</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' )."atelie-culinario" ); ?>">Ateliê Culinário</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."eventos"; ?>">Eventos</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>">Fotos</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."blog"; ?>">Blog</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."localizacao"; ?>">Localização</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."blog"); ?>">Início</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' )."categoria-blog/noticias" ); ?>">Notícias</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' )."categoria-blog/dicas" ); ?>">Dicas</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' )."categoria-blog/receitas" ); ?>">Receitas</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Site Aroma e Sabor</a></li>
 						</ul>
 					</nav><!-- #site-navigation -->						
 				</div>
 			</div>
 		</div><!-- .container -->
 	</header><!-- #masthead -->
-
-
