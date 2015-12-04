@@ -28,6 +28,8 @@ div#content{
 	}
 
 	section#sobre{
+		padding-bottom:40px;
+
 		ul{
 			list-style-type:none;
 			margin-bottom: 20px;
@@ -41,6 +43,12 @@ div#content{
 			}
 		}	
 	}
+
+	section#fotos-sobre{
+		padding:25px 0;
+		background-color:#f3f2e9;
+	}
+
 
 	section#redes-bot{
 		padding:80px 0;	
