@@ -38,7 +38,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page h1.title-full {
     background-color: #f3f2e9;
     width: 100%;
-    padding: 30px 0; }
+    padding: 30px 0;
+    margin-bottom: 40px; }
   #page h1.small {
     font-family: FuturaBT, Verdana, Geneva, sans-serif;
     font-size: 26px;
@@ -200,14 +201,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         font-weight: bold; }
     #page div#content section#detalhes div.atelie {
       margin-bottom: 50px; }
-  #page div#content section#sobre ul {
-    list-style-type: none;
-    margin-bottom: 20px; }
-    #page div#content section#sobre ul li {
-      margin: 15px 0px; }
-    #page div#content section#sobre ul li:before {
-      content: "\2713 \00a0";
-      font-weight: bold; }
+  #page div#content section#sobre {
+    padding-bottom: 40px; }
+    #page div#content section#sobre ul {
+      list-style-type: none;
+      margin-bottom: 20px; }
+      #page div#content section#sobre ul li {
+        margin: 15px 0px; }
+      #page div#content section#sobre ul li:before {
+        content: "\2713 \00a0";
+        font-weight: bold; }
+  #page div#content section#fotos-sobre {
+    padding: 25px 0;
+    background-color: #f3f2e9; }
   #page div#content section#redes-bot {
     padding: 80px 0; }
     #page div#content section#redes-bot .redes_sociais_bot {
