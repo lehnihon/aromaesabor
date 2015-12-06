@@ -4,7 +4,7 @@ get_header(); ?>
 <div id="content">
 
 	<section id="maps">
-		<h1 class="title-full small">Localização</h1>
+		<h1 class="title-full small"><div class="animated bounceIn">Localização</div></h1>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 videoWrapper">

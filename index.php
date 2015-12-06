@@ -17,14 +17,14 @@ get_header(); ?>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4">
-					teste produto
+				<div class="col-md-4 anima-a">
+					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/categoria1.jpg"; ?>"/>
 				</div>
-				<div class="col-md-4">
-					teste produto
+				<div class="col-md-4 anima-b">
+					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/categoria2.jpg"; ?>"/>
 				</div>
-				<div class="col-md-4">
-					teste produto
+				<div class="col-md-4 anima-c">
+					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/categoria3.jpg"; ?>"/>
 				</div>
 			</div>
 		</div>
@@ -32,25 +32,25 @@ get_header(); ?>
 	<section id="detalhes">
 		<div class="container">
 			<div class="row atelie">
-				<div class="col-md-3">
+				<div class="col-md-3 anima-d">
 					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/atelie.jpg"; ?>"/>
 				</div>
-				<div class="col-md-3 text-left">
+				<div class="col-md-3 text-left anima-e">
 					<h4>Ateliê Culinário</h4>
 					<p>Confira todo o cardápio do Ateliê Culinário do restaurante Aroma e Sabor.</p>
-					<a href="#" class="btn-saiba-mais">Saiba mais</a>
+					<a href="<?php echo esc_url( home_url( '/' ) )."atelie-culinario"; ?>" class="btn-saiba-mais">Saiba mais</a>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 anima-f">
 					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/eventos.jpg"; ?>"/>
 				</div>
-				<div class="col-md-3 text-left">
+				<div class="col-md-3 text-left anima-g">
 					<h4>Eventos</h4>
 					<p>Confira todo o cardápio do Ateliê Culinário do restaurante Aroma e Sabor.</p>
-					<a href="#" class="btn-saiba-mais">Saiba mais</a>
+					<a href="<?php echo esc_url( home_url( '/' ) )."eventos"; ?>" class="btn-saiba-mais">Saiba mais</a>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-7 text-left">
+				<div class="col-md-7 text-left anima-h">
 					<h4>Restaurante Aroma e Sabor</h4>
 					<p class="">Somos pioneiros no sistema de refeição a quilo na cidade de São Paulo.
 						Atuamos há 26 anos, fornecendo comida caseira, num ambiente mais do que familiar.
@@ -65,19 +65,18 @@ get_header(); ?>
 						<li>Sistema buffet por quilo, comida brasileira, caseira</li>
 						<li>Sexta-feira o cardápio é temático, com comida japonesa e árabe</li>
 					</ul>
-					<a href="#" class="btn-saiba-mais">Confira as fotos</a>
+					<a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>" class="btn-saiba-mais">Confira as fotos</a>
 				</div>
-				<div class="col-md-5 text-left">
+				<div class="col-md-5 text-left anima-i">
 					<h4>Fotos</h4>
 					
-						<div class="row">
-							<div class="col-md-6">foto</div>
-							<div class="col-md-6">foto</div>
-						</div>
-						<div class="row">
-							<div class="col-md-6">foto</div>
-							<div class="col-md-6">foto</div>
-						</div>
+					<div class="fotos-sobre">
+						<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sobre.jpg"; ?>"/>
+						<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sobre.jpg"; ?>"/>
+						<div class="clearfix"></div>
+						<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sobre.jpg"; ?>"/>
+						<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sobre.jpg"; ?>"/>
+					</div>
 			
 				</div>
 			</div>

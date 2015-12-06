@@ -5,6 +5,54 @@ div#content{
 		padding:80px 0;
 	}
 
+	section#atelie-menu{
+		ul.btn-atelie{
+			margin:0;
+			padding:0;
+			list-style-type: none;
+			width: 100%;
+			margin: 0 auto;
+
+			li{
+				-webkit-border-radius: 6px; 
+				-moz-border-radius: 6px; 
+				border-radius: 6px; 
+				background-color:#b5ab3a;
+				float:left;
+				width: 13.78%;
+				margin-right: 0.5%;
+				
+				a{
+					padding:10px 10px;
+					color:white;
+					font-family:FuturaBT, Verdana, Geneva, sans-serif;
+					display: block;
+					font-size: 16px;
+				}					
+			}
+
+			li:hover{
+				background-color:#dfd99a;
+			}
+
+			li:last-child{
+				margin-right: 0;
+			}
+		}
+		div.tab-content{
+			div.tab-pane{
+				text-align: left;
+
+				article{
+					padding:20px 0;
+					border-bottom:1px solid #e5e5e5;
+				}
+			}
+			
+		}
+	
+	}
+
 	section#detalhes{
 		padding:80px 0;	
 		background-color:#fcfcfc;
@@ -14,7 +62,7 @@ div#content{
 			margin-bottom: 20px;
 
 			li{
-				margin: 15px 0px;
+				margin: 25px 0px;
 			}
 			li:before{
 				content: "\2713 \00a0";
@@ -25,10 +73,67 @@ div#content{
 		div.atelie{
 			margin-bottom:50px;
 		}
+
+		div.fotos-sobre{
+			img{
+				float:left;
+				border:5px solid #e5e5e5;
+				margin:5px;
+			}
+		}	
 	}
 
 	section#eventos{
-		padding-top:80px;
+		padding:80px 0;
+
+		ul.btn-eventos{
+			margin:0;
+			padding:0;
+			list-style-type: none;
+			width: 300px;
+			margin: 0 auto;
+
+			li{
+				-webkit-border-radius: 6px; 
+				-moz-border-radius: 6px; 
+				border-radius: 6px; 
+				background-color:#b5ab3a;
+				float:left;
+				width: 48%;
+				margin-right: 2%;
+				
+				a{
+					padding:10px 10px;
+					color:white;
+					font-family:FuturaBT, Verdana, Geneva, sans-serif;
+					display: block;
+					font-size: 16px;
+				}					
+			}
+
+			li:hover{
+				background-color:#dfd99a;
+			}
+
+			li:last-child{
+				margin-right: 0;
+			}
+		}
+
+		ul.op-eventos{
+			list-style-type:none;
+			margin-bottom: 20px;
+			padding:0;
+
+			li{
+				list-style-type:none;
+				margin: 15px 0px;
+			}
+			li:before{
+				content: "\2713 \00a0";
+				font-weight:bold;
+			}
+		}
 	}
 
 	section#blog{
@@ -177,6 +282,14 @@ div#content{
 				content: "\2713 \00a0";
 				font-weight:bold;
 			}
+		}
+
+		div.fotos-sobre{
+			img{
+				float:left;
+				border:5px solid #e5e5e5;
+				margin:5px;
+			}
 		}	
 	}
 
@@ -185,8 +298,17 @@ div#content{
 		background-color:#f3f2e9;
 	}
 
-	section#atelie-menu{
-	
+
+	section#form-contato{
+		padding:25px 0;
+		background-color:#f3f2e9;
+
+		div.form-desc{
+			background-color:#baad29;
+			color:white;
+			text-align: left;
+			padding:25px 35px;
+		}
 	}
 
 	section#redes-bot{
@@ -252,8 +374,21 @@ div#content{
 	}
 
 }
-@media (max-width: 991px) {  
+@media (max-width: 991px) { 
+	div#content{ 
+		section#atelie-menu{
+			ul.btn-atelie{
+		
+				li{
+					float:none;
+					width: 100%;
+					margin-bottom: 10px;	
+				}
 
+			}
+		
+		}
+	}
 }
 
 @media (min-width: 992px) {  

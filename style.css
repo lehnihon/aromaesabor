@@ -91,6 +91,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     display: inline-block; }
   #page .btn-saiba-mais:hover {
     background-color: #dfd99a; }
+  #page .bx-wrapper .bx-viewport {
+    margin-top: 10px;
+    -webkit-box-shadow: 0 0 0px;
+    box-shadow: 0 0 0px;
+    border: 0px solid white;
+    left: 0px; }
+    #page .bx-wrapper .bx-viewport .bx-clone {
+      display: none !important; }
   #page #header {
     border-top: 10px solid #e6e3c0;
     margin-bottom: 20px; }
@@ -271,6 +279,35 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page div#content section#atelie {
     background-color: #f3f2e9;
     padding: 80px 0; }
+  #page div#content section#atelie-menu ul.btn-atelie {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    margin: 0 auto; }
+    #page div#content section#atelie-menu ul.btn-atelie li {
+      -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+      border-radius: 6px;
+      background-color: #b5ab3a;
+      float: left;
+      width: 13.78%;
+      margin-right: 0.5%; }
+      #page div#content section#atelie-menu ul.btn-atelie li a {
+        padding: 10px 10px;
+        color: white;
+        font-family: FuturaBT, Verdana, Geneva, sans-serif;
+        display: block;
+        font-size: 16px; }
+    #page div#content section#atelie-menu ul.btn-atelie li:hover {
+      background-color: #dfd99a; }
+    #page div#content section#atelie-menu ul.btn-atelie li:last-child {
+      margin-right: 0; }
+  #page div#content section#atelie-menu div.tab-content div.tab-pane {
+    text-align: left; }
+    #page div#content section#atelie-menu div.tab-content div.tab-pane article {
+      padding: 20px 0;
+      border-bottom: 1px solid #e5e5e5; }
   #page div#content section#detalhes {
     padding: 80px 0;
     background-color: #fcfcfc; }
@@ -278,14 +315,52 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       list-style-type: none;
       margin-bottom: 20px; }
       #page div#content section#detalhes ul li {
-        margin: 15px 0px; }
+        margin: 25px 0px; }
       #page div#content section#detalhes ul li:before {
         content: "\2713 \00a0";
         font-weight: bold; }
     #page div#content section#detalhes div.atelie {
       margin-bottom: 50px; }
+    #page div#content section#detalhes div.fotos-sobre img {
+      float: left;
+      border: 5px solid #e5e5e5;
+      margin: 5px; }
   #page div#content section#eventos {
-    padding-top: 80px; }
+    padding: 80px 0; }
+    #page div#content section#eventos ul.btn-eventos {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      width: 300px;
+      margin: 0 auto; }
+      #page div#content section#eventos ul.btn-eventos li {
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+        background-color: #b5ab3a;
+        float: left;
+        width: 48%;
+        margin-right: 2%; }
+        #page div#content section#eventos ul.btn-eventos li a {
+          padding: 10px 10px;
+          color: white;
+          font-family: FuturaBT, Verdana, Geneva, sans-serif;
+          display: block;
+          font-size: 16px; }
+      #page div#content section#eventos ul.btn-eventos li:hover {
+        background-color: #dfd99a; }
+      #page div#content section#eventos ul.btn-eventos li:last-child {
+        margin-right: 0; }
+    #page div#content section#eventos ul.op-eventos {
+      list-style-type: none;
+      margin-bottom: 20px;
+      padding: 0; }
+      #page div#content section#eventos ul.op-eventos li {
+        list-style-type: none;
+        margin: 15px 0px; }
+      #page div#content section#eventos ul.op-eventos li:before {
+        content: "\2713 \00a0";
+        font-weight: bold; }
   #page div#content section#blog div.menu-blog div.col-md-4 a {
     color: white;
     display: inline-block;
@@ -363,9 +438,21 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       #page div#content section#sobre ul li:before {
         content: "\2713 \00a0";
         font-weight: bold; }
+    #page div#content section#sobre div.fotos-sobre img {
+      float: left;
+      border: 5px solid #e5e5e5;
+      margin: 5px; }
   #page div#content section#fotos-sobre {
     padding: 25px 0;
     background-color: #f3f2e9; }
+  #page div#content section#form-contato {
+    padding: 25px 0;
+    background-color: #f3f2e9; }
+    #page div#content section#form-contato div.form-desc {
+      background-color: #baad29;
+      color: white;
+      text-align: left;
+      padding: 25px 35px; }
   #page div#content section#redes-bot {
     padding: 80px 0; }
     #page div#content section#redes-bot .redes_sociais_bot {
@@ -413,6 +500,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       width: 67px;
       height: 67px;
       display: inline-block; }
+  @media (max-width: 991px) {
+    #page div#content section#atelie-menu ul.btn-atelie li {
+      float: none;
+      width: 100%;
+      margin-bottom: 10px; } }
   #page #footer {
     text-align: left;
     color: #FFFFFF; }

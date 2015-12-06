@@ -3,7 +3,7 @@ get_header(); ?>
 
 <div id="content">
 	<section id="sobre">
-		<h1 class="title-full small">Contato</h1>
+		<h1 class="title-full small"><div class="animated bounceIn">Contato</div></h1>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">

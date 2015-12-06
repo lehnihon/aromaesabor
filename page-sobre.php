@@ -3,7 +3,7 @@ get_header(); ?>
 
 <div id="content">
 	<section id="sobre">
-		<h1 class="title-full small">Aroma e Sabor</h1>
+		<h1 class="title-full small"><div class="animated bounceIn">Aroma e Sabor</div></h1>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7 text-left">
@@ -24,16 +24,13 @@ get_header(); ?>
 				</div>
 				<div class="col-md-5 text-left">
 					<h4>Fotos</h4>
-					
-						<div class="row">
-							<div class="col-md-6">foto</div>
-							<div class="col-md-6">foto</div>
-						</div>
-						<div class="row">
-							<div class="col-md-6">foto</div>
-							<div class="col-md-6">foto</div>
-						</div>
-			
+					<div class="fotos-sobre">
+						<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sobre.jpg"; ?>"/>
+						<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sobre.jpg"; ?>"/>
+						<div class="clearfix"></div>
+						<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sobre.jpg"; ?>"/>
+						<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sobre.jpg"; ?>"/>
+					</div>
 				</div>	
 			</div>	
 			<div class="row">
@@ -66,8 +63,17 @@ get_header(); ?>
 	<section id="fotos-sobre">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					fotos
+				<div class="col-md-3">
+					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sec.jpg"; ?>"/>
+				</div>
+				<div class="col-md-3">
+					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sec.jpg"; ?>"/>
+				</div>
+				<div class="col-md-3">
+					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sec.jpg"; ?>"/>
+				</div>
+				<div class="col-md-3">
+					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sec.jpg"; ?>"/>
 				</div>
 			</div>
 		</div>

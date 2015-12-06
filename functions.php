@@ -116,6 +116,7 @@ add_action( 'widgets_init', 'site_widgets_init' );
 function site_scripts() {
 	wp_enqueue_style( 'site-style-bxslider', get_template_directory_uri() ."/bootstrap/css/bootstrap.min.css" );
 	wp_enqueue_style( 'site-style-bootstrap', get_template_directory_uri() ."/js/jquery.bxslider.css" );
+	wp_enqueue_style( 'site-style-animate', get_template_directory_uri() ."/animate.css" );
 	wp_enqueue_style( 'site-style-lightbox', get_template_directory_uri() ."/js/lightbox2/src/css/lightbox.css" );
 	wp_enqueue_style( 'site-style', get_stylesheet_uri() );
 
@@ -123,7 +124,7 @@ function site_scripts() {
 	wp_enqueue_script( 'site-script-bootstrap', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js');
 	wp_enqueue_script( 'site-script-jquery-ui', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js');
 	wp_enqueue_script( 'site-script-mask', get_template_directory_uri() . '/js/jquery.mask.min.js');
-	wp_enqueue_script( 'site-script-bxslider', get_template_directory_uri() . '/js/jquery.bxslider.min.js',array(),false,tru);
+	wp_enqueue_script( 'site-script-bxslider', get_template_directory_uri() . '/js/jquery.bxslider.min.js',array(),false,true);
 	wp_enqueue_script( 'site-script-lightbox', get_template_directory_uri() . '/js/lightbox2/src/js/lightbox.js',array(),false,true);
 	wp_enqueue_script( 'site-script-site', get_template_directory_uri() . '/js/script.js');
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -155,6 +156,31 @@ add_filter('template_include', 'template_chooser');
 /**
  * CUSTOM POST TYPE
  */
+
+function change_post_menu_label() {
+    global $menu;
+    global $submenu;
+    $menu[5][0] = 'Produtos';
+    $submenu['edit.php'][5][0] = 'Produtos';
+    $submenu['edit.php'][10][0] = 'Adicionar Produtos';
+    echo '';
+}
+function change_post_object_label() {
+        global $wp_post_types;
+        $labels = &$wp_post_types['post']->labels;
+        $labels->name = 'Produtos';
+        $labels->singular_name = 'Produto';
+        $labels->add_new = 'Adicionar Produto';
+        $labels->add_new_item = 'Adicionar Produto';
+        $labels->edit_item = 'Editar Produto';
+        $labels->new_item = 'Produto';
+        $labels->view_item = 'Ver Produto';
+        $labels->search_items = 'Procurar Produto';
+        $labels->not_found = 'Produto não encontrado';
+        $labels->not_found_in_trash = 'Sem Produtos na lixeira';
+}
+add_action( 'init', 'change_post_object_label' );
+add_action( 'admin_menu', 'change_post_menu_label' );
 
 function register_post_type_blog(){
 	$singular = 'Blog Post';
@@ -201,6 +227,26 @@ function register_taxonomy_categoria_blog(){
 	register_taxonomy( 'categoria_blog', 'blog', $args );
 }
 add_action('init','register_taxonomy_categoria_blog');
+
+function register_post_type_fotos(){
+	$singular = 'Foto';
+	$plural = 'Fotos';
+	$labels = array(
+		'name' => $plural,
+		'singular_name' => $singular,
+		'add_new_item' => 'Adicionar nova '.$singular,
+		);
+	$args = array(
+		'labels' => $labels,
+		'public' => true,
+        'supports' => array('title', 'editor','thumbnail'),
+        'menu_position' => 5
+		);
+
+	register_post_type('fotos',$args);
+}
+add_action(	'init','register_post_type_fotos');
+
 
 /**
  * Implement the Custom Header feature.
