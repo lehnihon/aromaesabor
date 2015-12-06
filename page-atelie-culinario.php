@@ -17,7 +17,7 @@ $upload_dir = wp_upload_dir();
 			</div><br>
 			<div class="row">
 				<div class="col-md-12">
-					<img class="img-responsive" src="<?php echo $upload_dir['baseurl']."/banner-home.jpg"; ?>">
+					<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-home.jpg"; ?>">
 					<div class="slider1">
 						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-home.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-home.jpg"; ?>"></a></div>
 						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-home.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-home.jpg"; ?>"></a></div>
