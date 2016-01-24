@@ -24,12 +24,21 @@ get_header(); ?>
 				</div>
 				<div class="col-md-5 text-left">
 					<h4>Fotos</h4>
-					<div class="fotos-sobre">
-						<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sobre.jpg"; ?>"/>
-						<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sobre.jpg"; ?>"/>
-						<div class="clearfix"></div>
-						<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sobre.jpg"; ?>"/>
-						<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sobre.jpg"; ?>"/>
+					<div class="fotos-sobre row">
+						<div class="col-md-6">
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Galeria Aroma e Sabor 01.jpg"; ?>"/>
+						</div>
+						<div class="col-md-6">
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Galeria Aroma e Sabor 02.jpg"; ?>"/>
+						</div>
+					</div>
+					<div class="fotos-sobre row">	
+						<div class="col-md-6">
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Galeria Aroma e Sabor 03.jpg"; ?>"/>
+						</div>
+						<div class="col-md-6">
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Galeria Aroma e Sabor 04.jpg"; ?>"/>
+						</div>
 					</div>
 				</div>	
 			</div>	
@@ -60,24 +69,7 @@ get_header(); ?>
 		</div>
 	</section>
 	
-	<section id="fotos-sobre">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3">
-					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sec.jpg"; ?>"/>
-				</div>
-				<div class="col-md-3">
-					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sec.jpg"; ?>"/>
-				</div>
-				<div class="col-md-3">
-					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sec.jpg"; ?>"/>
-				</div>
-				<div class="col-md-3">
-					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sec.jpg"; ?>"/>
-				</div>
-			</div>
-		</div>
-	</section>
+	<?php get_template_part( 'template-parts/fotos-sobre'); ?>
 
 	<?php get_template_part( 'template-parts/redes-bot'); ?>
 

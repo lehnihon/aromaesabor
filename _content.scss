@@ -6,6 +6,8 @@ div#content{
 	}
 
 	section#atelie-menu{
+		margin-bottom: 100px;
+
 		ul.btn-atelie{
 			margin:0;
 			padding:0;
@@ -308,6 +310,17 @@ div#content{
 			color:white;
 			text-align: left;
 			padding:25px 35px;
+		}
+	}
+
+	section#contato{
+		margin-bottom: 80px;
+		margin-top: 40px;
+
+		div.quadro{
+			padding:25px 50px;
+			background-color:#f3f2e9;
+			margin-top: 10px;
 		}
 	}
 

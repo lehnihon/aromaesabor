@@ -17,15 +17,28 @@ $upload_dir = wp_upload_dir();
 			</div><br>
 			<div class="row">
 				<div class="col-md-12">
-					<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-home.jpg"; ?>">
+					<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario ".rand(1, 20).".jpg"; ?>">
 					<div class="slider1">
-						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-home.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-home.jpg"; ?>"></a></div>
-						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-home.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-home.jpg"; ?>"></a></div>
-						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-home.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-home.jpg"; ?>"></a></div>
-						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-home.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-home.jpg"; ?>"></a></div>
-						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-home.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-home.jpg"; ?>"></a></div>
-						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-home.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-home.jpg"; ?>"></a></div>
-						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-home.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-home.jpg"; ?>"></a></div>
+						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 1.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 1.jpg"; ?>"></a></div>
+						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 2.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 2.jpg"; ?>"></a></div>
+						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 3.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 3.jpg"; ?>"></a></div>
+						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 4.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 4.jpg"; ?>"></a></div>
+						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 5.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 5.jpg"; ?>"></a></div>
+						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 6.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 6.jpg"; ?>"></a></div>
+						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 7.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 7.jpg"; ?>"></a></div>
+						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 8.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 8.jpg"; ?>"></a></div>
+						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 9.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 9.jpg"; ?>"></a></div>
+						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 10.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 10.jpg"; ?>"></a></div>
+						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 11.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 11.jpg"; ?>"></a></div>
+						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 12.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 12.jpg"; ?>"></a></div>
+						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 13.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 13.jpg"; ?>"></a></div>
+						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 14.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 14.jpg"; ?>"></a></div>
+						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 15.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 15.jpg"; ?>"></a></div>
+						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 16.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 16.jpg"; ?>"></a></div>						
+						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 17.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 17.jpg"; ?>"></a></div>
+						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 18.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 18.jpg"; ?>"></a></div>
+						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 19.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 19.jpg"; ?>"></a></div>
+						<div class="slide"><a data-lightbox="prod" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 20.jpg"; ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Atelie Culinario 20.jpg"; ?>"></a></div>		
 					</div>						
 				</div>
 			</div>
@@ -238,6 +251,38 @@ $upload_dir = wp_upload_dir();
 			</div>				
 		</div>
 
+	</section>
+
+	<section id="form-contato">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 text-left">
+					<?php 
+						if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 8 ); }
+					?>
+				</div>
+				<div class="col-md-6">
+					<div class="form-desc">
+						<p>
+							<strong>Solicite sua encomenda</strong>
+							<br>Preencha o formulário ao lado que entraremos em contato com você!						
+						</p>
+						<div style="border-top:1px solid white; margin-bottom:20px; margin-top:20px;"></div>
+						<p>
+							<strong>São Bento</strong>
+							<br>Rua São Bento, 545 - 1º andar
+							<br>São Paulo - SP
+							<br>11 3106-4470  |  11 3106-1544
+							<br><br>
+							<strong>Libero Badaró</strong>
+							<br>Rua Libero Badaró, 370
+							<br>São Paulo - SP
+							<br>11 3101-9907  |  11 3241-0491
+						</p>
+					</div>
+				</div>
+			</div><!-- .row -->
+		</div>	
 	</section>
 
 	<?php get_template_part( 'template-parts/redes-bot'); ?>

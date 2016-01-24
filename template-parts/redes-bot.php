@@ -10,9 +10,9 @@
 			<div class="col-md-12">
 				<ul class="redes_sociais_bot">
 					<li class="youtube"><a target="_blank" href="#"></a></li>
-					<li class="instagram"><a target="_blank" href="#"></a></li>
+					<li class="instagram"><a target="_blank" href="https://www.instagram.com/aromasabor/"></a></li>
 					<li class="twitter"><a target="_blank" href="#"></a></li>
-					<li class="facebook"><a target="_blank" href="#"></a></li>
+					<li class="facebook"><a target="_blank" href="https://www.facebook.com/restaurantearomasabor/?fref=ts"></a></li>
 				</ul>		
 			</div>
 		</div><!-- .row -->

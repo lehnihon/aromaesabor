@@ -8,8 +8,11 @@
 							Somos pioneiros no sistema de refeição a quilo na ciadde de São Paulo.
 							<br>Atuamos há 26 anos, fornecendo comida caseira, num ambiente mais do que familiar.
 							<br><br>
-							<strong>Rua São Bento, 545 - Centro São Paulo</strong>
-							<br><strong>Telefone: 11 1234-5678</strong>
+							<strong>Rua São Bento, 545 - São Paulo</strong>
+							<br><strong>Telefones: 11 3106-4470  |  11 3106-1544</strong>
+							<br><br>
+							<strong>Rua Libero Badaró, 370  - São Paulo</strong>
+							<br><strong>Telefones: 11 3101-9907  |  11 3241-0491</strong>
 						</p>
 					</div>
 					<div class="col-md-2 col-md-offset-1">
@@ -26,12 +29,14 @@
 						<ul>
 							<li><a href="<?php echo esc_url( home_url( '/' )."atelie-culinario" ); ?>">Ateliê Culinário</a></li>
 							<li><a href="<?php echo esc_url( home_url( '/' )."eventos" ); ?>">Eventos</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' )."eventos" ); ?>">Sexta temática</a></li>
 							<li><a href="<?php echo esc_url( home_url( '/' )."fotos" ); ?>">Fotos</a></li>
 						</ul>	
 					</div>
 					<div class="col-md-3">
-						<strong>Receba nossas novidades</strong>
+						<strong>Receba nossas novidades</strong><br><br>
+						<?php
+						if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 5 ); }
+						?>
 					</div>
 				</div><!-- .row -->
 			</div><!-- .container -->			

@@ -24,24 +24,7 @@ get_header(); ?>
 		</div>
 	</section>
 
-	<section id="fotos-sobre">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3">
-					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sec.jpg"; ?>"/>
-				</div>
-				<div class="col-md-3">
-					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sec.jpg"; ?>"/>
-				</div>
-				<div class="col-md-3">
-					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sec.jpg"; ?>"/>
-				</div>
-				<div class="col-md-3">
-					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/foto-sec.jpg"; ?>"/>
-				</div>
-			</div>
-		</div>
-	</section>
+	<?php get_template_part( 'template-parts/fotos-sobre'); ?>
 
 	<section id="eventos">
 		<div class="container">
@@ -78,8 +61,10 @@ get_header(); ?>
 	<section id="form-contato">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
-					form
+				<div class="col-md-6 text-left">
+					<?php 
+						if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 7 ); }
+					?>
 				</div>
 				<div class="col-md-6">
 					<div class="form-desc">
@@ -92,12 +77,12 @@ get_header(); ?>
 							<strong>São Bento</strong>
 							<br>Rua São Bento, 545 - 1º andar
 							<br>São Paulo - SP
-							<br>11 1234-5678
+							<br>11 3106-4470  |  11 3106-1544
 							<br><br>
 							<strong>Libero Badaró</strong>
 							<br>Rua Libero Badaró, 370
 							<br>São Paulo - SP
-							<br>11 1234-5678
+							<br>11 3101-9907  |  11 3241-0491
 						</p>
 					</div>
 				</div>

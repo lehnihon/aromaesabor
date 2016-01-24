@@ -12,11 +12,18 @@ get_header(); ?>
 				</div>
 			</div><br>
 			<div class="row">
-				<div class="col-md-12 text-left">	
+				<div class="col-md-6 text-left">	
 					<p>
 						<strong>São Bento</strong>
-						<br>Rua São Bento, 545 - Centro São Paulo 
-						<br>Telefone: 11 1234-5678
+						<br>Rua São Bento, 545 - São Paulo 
+						<br>Telefones: 11 3106-4470  |  11 3106-1544
+					</p>		
+				</div>
+				<div class="col-md-6 text-left">	
+					<p>
+						<strong>Libero Badaró</strong>
+						<br>Rua Libero Badaró, 370 - São Paulo 
+						<br>Telefones: 11 3101-9907  |  11 3241-0491
 					</p>		
 				</div>
 			</div>
