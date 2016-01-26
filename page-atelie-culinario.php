@@ -55,7 +55,7 @@ $upload_dir = wp_upload_dir();
 				<li><a href="#docinhos" data-toggle="tab">Docinhos</a></li>
 				<li><a href="#bolos" data-toggle="tab">Bolos</a></li>
 				<li><a href="#salgados" data-toggle="tab">Salgados</a></li>
-				<li><a href="#ceia-natal" data-toggle="tab">Ceia de Natal</a></li>
+				<li><a href="#coffee-break" data-toggle="tab">Coffee Break</a></li>
 			</ul><br>
 			<div class="tab-content" >
 				<?php 
@@ -168,7 +168,7 @@ $upload_dir = wp_upload_dir();
 				<?php endif; ?>
 
 				<?php 
-				$args = array('category_name' => 'bolos', 'orderby' => 'title', 'order' => 'ASC');
+				$args = array('category_name' => 'bolos', 'orderby' => 'title', 'order' => 'ASC', 'posts_per_page' => -1);
 				$query = new WP_Query( $args );
 				$contador = 1;
 				?>	
@@ -222,13 +222,13 @@ $upload_dir = wp_upload_dir();
 				<?php endif; ?>
 
 				<?php 
-				$args = array('category_name' => 'ceia-de-natal', 'orderby' => 'title', 'order' => 'ASC');
+				$args = array('category_name' => 'coffee-break', 'orderby' => 'title', 'order' => 'ASC');
 				$query = new WP_Query( $args );
 				$contador = 1;
 				?>	
 
 				<?php if ( $query->have_posts() ) : ?>
-					<div class="tab-pane fade in" id="ceia-natal">
+					<div class="tab-pane fade in" id="coffee-break">
 						<div class="row">
 					<?php /* Start the Loop */ ?>
 					<?php while ( $query->have_posts() ) : $query->the_post(); 

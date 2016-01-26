@@ -48,6 +48,7 @@ div#content{
 				article{
 					padding:20px 0;
 					border-bottom:1px solid #e5e5e5;
+					min-height: 153px;
 				}
 			}
 			
@@ -298,6 +299,11 @@ div#content{
 	section#fotos-sobre{
 		padding:25px 0;
 		background-color:#f3f2e9;
+
+		img{
+			border:5px solid white;
+		}
+
 	}
 
 
@@ -314,7 +320,6 @@ div#content{
 	}
 
 	section#contato{
-		margin-bottom: 80px;
 		margin-top: 40px;
 
 		div.quadro{
@@ -400,6 +405,12 @@ div#content{
 
 			}
 		
+		}
+
+		section#atelie{
+			div.col-md-4{
+				margin-bottom: 25px;
+			}
 		}
 	}
 }

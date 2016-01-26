@@ -16,7 +16,7 @@ get_header(); ?>
 
 					</p>
 					<ul>
-						<li>Visão Panorâmica para o Mosteiro São Bento e Viadulto Santa Ifigênia</li>
+						<li>Visão Panorâmica para o Mosteiro São Bento e Viaduto Santa Ifigênia</li>
 						<li>Cardápio variado com sobremesas especiais todos os dias</li>
 						<li>Sistema buffet por quilo, comida brasileira, caseira</li>
 						<li>Sexta-feira o cardápio é temático, com comida japonesa e árabe</li>

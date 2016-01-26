@@ -8,7 +8,7 @@
 							Somos pioneiros no sistema de refeição a quilo na ciadde de São Paulo.
 							<br>Atuamos há 26 anos, fornecendo comida caseira, num ambiente mais do que familiar.
 							<br><br>
-							<strong>Rua São Bento, 545 - São Paulo</strong>
+							<strong>Rua São Bento, 545 - 1º andar - São Paulo</strong>
 							<br><strong>Telefones: 11 3106-4470  |  11 3106-1544</strong>
 							<br><br>
 							<strong>Rua Libero Badaró, 370  - São Paulo</strong>

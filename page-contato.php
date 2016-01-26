@@ -16,7 +16,7 @@ get_header(); ?>
 					<div class="quadro">
 						<p>
 							<strong>São Bento</strong>
-							<br>Rua São Bento, 545 - São Paulo 
+							<br>Rua São Bento, 545 - 1º andar - São Paulo 
 							<br>Telefones: 11 3106-4470  |  11 3106-1544							
 						</p>
 						<p>

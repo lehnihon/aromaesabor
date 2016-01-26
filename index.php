@@ -18,13 +18,13 @@ get_header(); ?>
 			</div>
 			<div class="row">
 				<div class="col-md-4 anima-a">
-					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/categoria1.jpg"; ?>"/>
+					<a href="<?php echo esc_url( home_url( '/' )."atelie-culinario" ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/categoria1.jpg"; ?>"/></a>
 				</div>
 				<div class="col-md-4 anima-b">
-					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/categoria2.jpg"; ?>"/>
+					<a href="<?php echo esc_url( home_url( '/' )."eventos" ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/categoria2.jpg"; ?>"/></a>
 				</div>
 				<div class="col-md-4 anima-c">
-					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/categoria3.jpg"; ?>"/>
+					<a href="<?php echo esc_url( home_url( '/' )."fotos" ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/categoria3.jpg"; ?>"/></a>
 				</div>
 			</div>
 		</div>
@@ -60,7 +60,7 @@ get_header(); ?>
 
 					</p>
 					<ul>
-						<li>Visão Panorâmica para o Mosteiro São Bento e Viadulto Santa Ifigênia</li>
+						<li>Visão Panorâmica para o Mosteiro São Bento e Viaduto Santa Ifigênia</li>
 						<li>Cardápio variado com sobremesas especiais todos os dias</li>
 						<li>Sistema buffet por quilo, comida brasileira, caseira</li>
 						<li>Sexta-feira o cardápio é temático, com comida japonesa e árabe</li>

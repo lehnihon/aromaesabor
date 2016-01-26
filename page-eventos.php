@@ -37,21 +37,23 @@ get_header(); ?>
 				<div class="tab-pane fade" id="corporativos">
 					<ul class="op-eventos">
 						<li>Coffe Break</li>
-						<li>Coffe Break</li>
-						<li>Coffe Break</li>
-						<li>Coffe Break</li>
-						<li>Coffe Break</li>
-						<li>Coffe Break</li>
+						<li>Confraternizações</li>
+						<li>Festa Junina</li>
+						<li>Jantares</li>
+						<li>Coqueteis</li>
+						<li>Final de ano</li>
+						<li>Reveillon</li>
 					</ul>
 				</div>
 				<div class="tab-pane fade" id="particulares">
 					<ul class="op-eventos">
-						<li>Coffe Break2</li>
-						<li>Coffe Break2</li>
-						<li>Coffe Break2</li>
-						<li>Coffe Break2</li>
-						<li>Coffe Break2</li>
-						<li>Coffe Break2</li>
+						<li>Casamentos</li>
+						<li>Confraternizações</li>
+						<li>Festa Junina</li>
+						<li>Jantares</li>
+						<li>Aniversários</li>
+						<li>Final de ano</li>
+						<li>Reveillon</li>
 					</ul>					
 				</div>
 			</div>			
