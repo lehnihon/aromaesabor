@@ -45,7 +45,7 @@ get_header(); ?>
 				</div>
 				<div class="col-md-3 text-left anima-g">
 					<h4>Eventos</h4>
-					<p>Confira todo o cardápio do Ateliê Culinário do restaurante Aroma e Sabor.</p>
+					<p>Comemore seu evento no restaurante Aroma e Sabor, o ambiente é muito agradável.</p>
 					<a href="<?php echo esc_url( home_url( '/' ) )."eventos"; ?>" class="btn-saiba-mais">Saiba mais</a>
 				</div>
 			</div>
