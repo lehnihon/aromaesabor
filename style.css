@@ -347,6 +347,30 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         background-color: #dfd99a; }
       #page div#content section#atelie-menu ul.btn-atelie li:last-child {
         margin-right: 0; }
+    #page div#content section#atelie-menu ul.btn-cardapio {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      width: 300px;
+      margin: 0 auto; }
+      #page div#content section#atelie-menu ul.btn-cardapio li {
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+        background-color: #b5ab3a;
+        float: left;
+        width: 49%;
+        margin-right: 0.5%; }
+        #page div#content section#atelie-menu ul.btn-cardapio li a {
+          padding: 10px 10px;
+          color: white;
+          font-family: FuturaBT, Verdana, Geneva, sans-serif;
+          display: block;
+          font-size: 16px; }
+      #page div#content section#atelie-menu ul.btn-cardapio li:hover {
+        background-color: #dfd99a; }
+      #page div#content section#atelie-menu ul.btn-cardapio li:last-child {
+        margin-right: 0; }
     #page div#content section#atelie-menu div.tab-content div.tab-pane {
       text-align: left; }
       #page div#content section#atelie-menu div.tab-content div.tab-pane article {
