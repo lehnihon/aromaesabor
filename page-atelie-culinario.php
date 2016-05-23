@@ -13,7 +13,7 @@ $upload_dir = wp_upload_dir();
 					<p>O restaurante Aroma e Sabor também tem um Ateliê Culinário. É reconhecido por sua qualidade e sofisticação, perfeito para quem aprecia a simplicidade de uma boa comida.
 						<br>Fornecemos bolos, doces, salgados, tortas, pães e lanches de metro.
 					</p>
-				</div>		
+				</div>
 			</div><br>
 			<div class="row">
 				<div class="col-md-12">

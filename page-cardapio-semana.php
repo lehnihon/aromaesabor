@@ -2,18 +2,20 @@
 get_header(); 
 $upload_dir = wp_upload_dir();
 ?>
-
 <div id="content">
 	<section id="atelie-menu">
 		<div class="container">
-			<h1 class="small title-restaurante"><span class="cor-base">Menu Encomendas</span> Ateliê Culinário</h1><br>
+			<h1 class="title-full small"><div class="animated bounceIn">Cardápio da Semana</div></h1>
+			<h2 class="redes text-left">Confira o cardápio da semana do Aroma e Sabor</h2>
+			<h5 class="text-left">Escolha entre o Aroma e Sabor da São Bento ou o Aroma e Sabor da Libero Badaró e confira o cardápio da semana.</h5><br>
+
 			<ul class="btn-cardapio clearfix">
 				<li><a href="#sao-bento" data-toggle="tab">São Bento</a></li>
 				<li><a href="#libero-badaro" data-toggle="tab">Líbero Badaró</a></li>
 			</ul><br>
 			<div class="tab-content" >
 				<?php 
-				$args = array('category_name' => 'sao-bento', 'orderby' => 'title', 'order' => 'ASC');
+				$args = array('category_name' => 'sao-bento', 'orderby' => 'title','orderby' => 'ID', 'order' => 'ASC');
 				$query = new WP_Query( $args );
 				$contador = 1;
 				?>	
@@ -41,7 +43,7 @@ $upload_dir = wp_upload_dir();
 
 
 				<?php 
-				$args = array('category_name' => 'libero-badaro', 'orderby' => 'title', 'order' => 'ASC');
+				$args = array('category_name' => 'libero-badaro', 'orderby' => 'ID', 'orderby', 'order' => 'ASC');
 				$query = new WP_Query( $args );
 				$contador = 1;
 				?>	
@@ -49,23 +51,23 @@ $upload_dir = wp_upload_dir();
 				<?php if ( $query->have_posts() ) : ?>
 					<div class="tab-pane fade in" id="libero-badaro">
 						<div class="row">
-					<?php /* Start the Loop */ ?>
-					<?php while ( $query->have_posts() ) : $query->the_post(); 
-						if($contador % 2 == 0):
-					?>
-						<div class="col-md-6"><article><h4 class="cor-base"><?php the_title(); ?></h4><p><?php the_content( ); ?></p></article></div>
-						</div><div class="row">
-					<?php 
-						else:
-					?>
-						<div class="col-md-6"><article><h4 class="cor-base"><?php the_title(); ?></h4><p><?php the_content( ); ?></p></article></div>									
-					<?php 
-						endif;
-					$contador++;
-					endwhile; ?>
+							<?php /* Start the Loop */ ?>
+							<?php while ( $query->have_posts() ) : $query->the_post(); 
+								if($contador % 2 == 0):
+							?>
+								<div class="col-md-6"><article><h4 class="cor-base"><?php the_title(); ?></h4><p><?php the_content( ); ?></p></article></div>
+								</div><div class="row">
+							<?php 
+								else:
+							?>
+								<div class="col-md-6"><article><h4 class="cor-base"><?php the_title(); ?></h4><p><?php the_content( ); ?></p></article></div>									
+							<?php 
+								endif;
+							$contador++;
+							endwhile; ?>
 						</div>
 					</div>	
-				<?php endif; ?>				
+				<?php endif; ?>
 			</div>				
 		</div>
 
