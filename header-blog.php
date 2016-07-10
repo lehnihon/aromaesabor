@@ -59,7 +59,7 @@
 				<div class="col-md-offset-1 col-md-4 redes">
 					<ul class="redes_sociais_header">
 						<li class="youtube"><a target="_blank" href="#"></a></li>
-						<li class="instagram"><a target="_blank" href="https://www.instagram.com/aromasabor/"></a></li>
+						<li class="instagram"><a target="_blank" href="https://www.instagram.com/restaurantearomaesabor/"></a></li>
 						<li class="twitter"><a target="_blank" href="#"></a></li>
 						<li class="facebook"><a target="_blank" href="https://www.facebook.com/restaurantearomasabor/?fref=ts"></a></li>
 					</ul>	
