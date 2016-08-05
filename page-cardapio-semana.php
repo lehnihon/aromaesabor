@@ -4,8 +4,8 @@ $upload_dir = wp_upload_dir();
 ?>
 <div id="content">
 	<section id="atelie-menu">
+		<h1 class="title-full small"><div class="animated bounceIn">Cardápio da Semana</div></h1>
 		<div class="container">
-			<h1 class="title-full small"><div class="animated bounceIn">Cardápio da Semana</div></h1>
 			<h2 class="redes text-left">Confira o cardápio da semana do Aroma e Sabor</h2>
 			<h5 class="text-left">Escolha entre o Aroma e Sabor da São Bento ou o Aroma e Sabor da Libero Badaró e confira o cardápio da semana.</h5><br>
 

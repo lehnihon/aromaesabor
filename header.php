@@ -51,6 +51,7 @@
 						<ul class="dropdown-menu">
 						<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Aroma e Sabor</a></li
 						><li><a href="<?php echo esc_url( home_url( '/' )."cardapio-semana" ); ?>">Cardápio da Semana</a></li
+						><li><a href="<?php echo esc_url( home_url( '/' )."delivery" ); ?>">Delivery</a></li
 						><li><a href="<?php echo esc_url( home_url( '/' )."atelie-culinario" ); ?>">Ateliê Culinário</a></li
 						><li><a href="<?php echo esc_url( home_url( '/' ) )."eventos"; ?>">Eventos</a></li
 						><li><a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>">Fotos</a></li
@@ -77,6 +78,7 @@
 						<ul class="menu-principal clearfix">
 							<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Aroma e Sabor</a></li
 							><li><a href="<?php echo esc_url( home_url( '/' )."cardapio-semana" ); ?>">Cardápio da Semana</a></li
+							><li><a href="<?php echo esc_url( home_url( '/' )."delivery" ); ?>">Delivery</a></li
 							><li><a href="<?php echo esc_url( home_url( '/' )."atelie-culinario" ); ?>">Ateliê Culinário</a></li
 							><li><a href="<?php echo esc_url( home_url( '/' ) )."eventos"; ?>">Eventos</a></li
 							><li><a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>">Fotos</a></li
