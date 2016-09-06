@@ -373,6 +373,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         background-color: #dfd99a; }
       #page div#content section#atelie-menu ul.btn-cardapio li:last-child {
         margin-right: 0; }
+    #page div#content section#atelie-menu div.detalhes-delivery {
+      background-color: #b5ab3a;
+      color: white;
+      padding: 15px 25px; }
+      #page div#content section#atelie-menu div.detalhes-delivery h4 {
+        margin-top: 24px; }
+      #page div#content section#atelie-menu div.detalhes-delivery h4:first-child {
+        margin-top: 10px; }
     #page div#content section#atelie-menu div.tab-content {
       text-align: left; }
       #page div#content section#atelie-menu div.tab-content article {

@@ -78,6 +78,19 @@ div#content{
 			}
 		}
 
+		div.detalhes-delivery{
+			background-color:#b5ab3a;
+			color:white;
+			padding:15px 25px;
+
+			h4{
+				margin-top:24px;
+			}
+			h4:first-child{
+				margin-top:10px;
+			}
+		}
+
 		div.tab-content{
 			
 			text-align: left;

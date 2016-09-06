@@ -13,7 +13,25 @@ $upload_dir = wp_upload_dir();
 			<div class="row">		
 				<?php putRevSlider( "banner-delivery" ) ?>
 			</div><br><br>
-
+			<div class="row">
+				<div class="col-md-6 text-left">
+					<div class="detalhes-delivery">
+						<h4>Nosso Endereço:</h4>
+						<p>
+							Rua São Bento, 545 - 1º andar / São Bento - São Paulo - SP
+						</p>
+						<h4>Área de Atendimento:</h4>
+						<p>Confira no mapa ao lado</p>
+						<h4>Horário de Funcionamento:</h4>
+						<p>De segunda à sexta das 11h às 15h.</p>
+						<h4>Nossos Telefones:</h4>
+						<p>11 3106-4470 / 11 3106-1544</p>
+					</div>
+				</div>
+				<div class="col-md-6 videoWrapper">
+					<iframe src="https://www.google.com/maps/d/embed?mid=1TW1IRAi2IO_O8Q6thAmPpniA82c" width="640" height="640"></iframe>
+				</div>
+			</div><br><br>
 			<div class="tab-content text-left" >
 				<?php 
 				$args = array('category_name' => 'delivery', 'orderby' => 'title','orderby' => 'ID', 'order' => 'ASC');
