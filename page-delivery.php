@@ -40,53 +40,19 @@ $upload_dir = wp_upload_dir();
 				?>	
 
 				<?php if ( $query->have_posts() ) : ?>
-					<div class="row">
+					
 					<?php /* Start the Loop */ ?>
 					<?php while ( $query->have_posts() ) : $query->the_post(); 
-						if($contador % 2 == 0):
 					?>
-						<div class="col-md-6"><article><h4 class="cor-base"><?php the_title(); ?></h4><p><?php the_content( ); ?></p></article></div>
-						</div><div class="row">
-					<?php 
-						else:
-					?>
-						<div class="col-md-6"><article><h4 class="cor-base"><?php the_title(); ?></h4><p><?php the_content( ); ?></p></article></div>									
-					<?php 
-						endif;
-					$contador++;
-					endwhile; ?>
-					</div>
-				<?php endif; ?>
-			</div>
-			<br><br>
-			<h2 class="redes text-left">Acompanhamentos</h2>
-			<br>
-			<div class="tab-content text-left" >
-				<?php 
-				$args = array('category_name' => 'acompanhamentos', 'orderby' => 'title','orderby' => 'ID', 'order' => 'ASC');
-				$query = new WP_Query( $args );
-				$contador = 1;
-				?>	
+						<div class="row"><div class="col-md-12"><article><h4 class="cor-base"><?php the_title(); ?></h4><p><?php the_content( ); ?></p></article></div></div>
 
-				<?php if ( $query->have_posts() ) : ?>
-					<div class="row">
-					<?php /* Start the Loop */ ?>
-					<?php while ( $query->have_posts() ) : $query->the_post(); 
-						if($contador % 2 == 0):
-					?>
-						<div class="col-md-6"><article><h4 class="cor-base"><?php the_title(); ?></h4><p><?php the_content( ); ?></p></article></div>
-						</div><div class="row">
 					<?php 
-						else:
-					?>
-						<div class="col-md-6"><article><h4 class="cor-base"><?php the_title(); ?></h4><p><?php the_content( ); ?></p></article></div>									
-					<?php 
-						endif;
-					$contador++;
+
 					endwhile; ?>
-					</div>
+					
 				<?php endif; ?>
 			</div>
+
 	</section>
 
 	<?php get_template_part( 'template-parts/redes-bot'); ?>
