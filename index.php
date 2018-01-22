@@ -32,7 +32,7 @@ get_header(); ?>
 	<section id="detalhes">
 		<div class="container">
 			<div class="row atelie">
-				<div class="col-md-3 anima-d">
+				<div class="col-md-3">
 					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/atelie.jpg"; ?>"/>
 				</div>
 				<div class="col-md-3 text-left anima-e">
